@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply h-5 w-5  md:w-6 md:h-6 cursor-pointer rounded-sm  lg:hover:bg-gray-200;
+  }
+
+  .voteButtons {
+    @apply h-6 hover:bg-gray-200 p-1 rounded-md;
+  }
+
+  .postButtons {
+    @apply flex items-center space-x-1 text-sm font-semibold p-1 sm:p-2
+     hover:text-gray-600 cursor-pointer;
+  }
+
+  .menuDrop {
+    @apply flex space-x-3 rounded-lg  hover:text-gray-800 cursor-pointer;
+  }
+}
