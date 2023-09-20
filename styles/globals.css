@@ -6,14 +6,19 @@
   .icon {
     @apply h-5 w-5  md:w-6 md:h-6 cursor-pointer rounded-sm  lg:hover:bg-gray-200;
   }
+  .iconPost {
+    @apply h-5 w-5  md:w-6 md:h-6 cursor-pointer rounded-sm;
+  }
+  .PIconFooter {
+    @apply hidden lg:inline pl-1 text-xs;
+  }
 
   .voteButtons {
     @apply h-6 hover:bg-gray-200 p-1 rounded-md;
   }
 
   .postButtons {
-    @apply flex items-center space-x-1 text-sm font-semibold p-1 sm:p-2
-     hover:text-gray-600 cursor-pointer;
+    @apply flex items-center  text-sm font-semibold p-1 sm:p-2 text-gray-600 hover:text-gray-900 cursor-pointer;
   }
 
   .menuDrop {

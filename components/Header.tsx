@@ -46,7 +46,7 @@ function Header() {
   return (
     <div
       className="flex p-2  bg-white shadow-md sticky top-0 z-50
-    items-center md:space-x-3 space-x-3 "
+    items-center md:space-x-3 space-x-1 "
     >
       {/* Logo */}
       <div
@@ -55,6 +55,7 @@ function Header() {
       >
         <Link href="/">
           <Image
+            loading="eager"
             alt="Logo"
             width={384}
             height={216}
@@ -271,10 +272,10 @@ function Header() {
           role="button"
           aria-label="Sign in Button"
           tabIndex={0}
-          className="flex items-center space-x-2  rounded-full
-       p-2 cursor-pointer "
+          className="flex items-center md:space-x-2  rounded-full
+       md:p-2 cursor-pointer "
         >
-          <div className="relative h-6 w-6 shrink-0">
+          <div className="m-2 sm:ml-0 sm:hidden md:inline-flex relative h-6 w-6 shrink-0">
             <Image
               alt="Logo user"
               fill
@@ -282,7 +283,9 @@ function Header() {
             />
           </div>
           <div className="p-1.5 px-3 hidden sm:inline-flex text-xs md:text-sm w-full rounded-full bg-[#EB5629]">
-            <p className=" text-white font-bold tracking-wide">Sign In</p>
+            <p className="text-white font-bold tracking-wide drop-shadow-[0_0.9px_0.9px_rgba(0,0,0,0.5)]">
+              Sign In
+            </p>
           </div>
         </div>
       )}

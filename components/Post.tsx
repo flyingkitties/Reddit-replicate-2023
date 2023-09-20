@@ -172,27 +172,30 @@ function Post({ post }: Props) {
           {/* footer */}
           <div className="flex space-x-4 text-gray-400 py-2 ">
             <div className="postButtons ">
-              <ChatBubbleLeftIcon className="icon" />
-              <p className="text-xs ">
-                {post?.comments.length}
-                <span className="hidden lg:inline"> Comments</span>
-              </p>
+              <ChatBubbleLeftIcon className="icon -mr-2" />
+              <div className="flex text-xs items-center justify-center ">
+                <div className="bg-blue-400 rounded-full mt-2 px-1 text-white">
+                  {post?.comments.length}
+                </div>
+
+                <p className="PIconFooter"> Comments</p>
+              </div>
             </div>
 
             <div className="postButtons ">
-              <GiftIcon className="icon" />
-              <p className="hidden text-xs lg:inline">Award</p>
+              <GiftIcon className="iconPost" />
+              <p className="PIconFooter">Award</p>
             </div>
             <div className="postButtons ">
-              <ShareIcon className="icon" />
-              <p className="hidden text-xs lg:inline">Share</p>
+              <ShareIcon className="iconPost" />
+              <p className="PIconFooter">Share</p>
             </div>
             <div className="postButtons ">
-              <BookmarkIcon className="icon" />
-              <p className="hidden text-xs lg:inline">Save</p>
+              <BookmarkIcon className="iconPost" />
+              <p className="PIconFooter">Save</p>
             </div>
             <div className="postButtons ">
-              <EllipsisHorizontalIcon className="icon" />
+              <EllipsisHorizontalIcon className="iconPost" />
             </div>
           </div>
         </div>
