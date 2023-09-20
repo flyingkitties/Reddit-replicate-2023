@@ -245,7 +245,7 @@ function Header() {
         >
           <div className="relative h-6 w-6 flex-shrink-0 ">
             <Image
-              alt=""
+              alt="logo user"
               fill
               sizes="(max-width: 768px) 100vw"
               src="https://links.papareact.com/23l"
