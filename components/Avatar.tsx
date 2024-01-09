@@ -18,9 +18,7 @@ function Avatar({ seed, large }: Props) {
         width="50"
         height="50"
         alt="Avatar"
-        src={`https://api.dicebear.com/7.x/micah/svg?${
-          seed || session?.user?.name
-        }`}
+        src={`https://robohash.org/${seed || session?.user?.name}?set=4`}
       />
     </div>
   );

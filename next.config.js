@@ -23,6 +23,10 @@ module.exports = {
         protocol: 'https',
         hostname: 'api.dicebear.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'obohash.org',
+      },
     ],
   },
 };
