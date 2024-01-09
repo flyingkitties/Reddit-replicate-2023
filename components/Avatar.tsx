@@ -15,10 +15,10 @@ function Avatar({ seed, large }: Props) {
      border-gray-300 bg-white ${large && 'h-10 w-10'}`}
     >
       <img
-        width="50"
-        height="50"
+        width="40"
+        height="40"
         alt="Avatar"
-        src={`https://robohash.org/${seed || session?.user?.name}?set=4`}
+        src={`https://robohash.org/${seed || session?.user?.name}?set=set4`}
       />
     </div>
   );
