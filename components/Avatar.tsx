@@ -14,12 +14,13 @@ function Avatar({ seed, large }: Props) {
       className={`relative overflow-hidden rounded-full
      border-gray-300 bg-white ${large && 'h-10 w-10'}`}
     >
-      <Image
-        width="100"
-        height="100"
+      <img
+        width="50"
+        height="50"
         alt="Avatar"
-        src={`https://avatars.dicebear.com/api/open-peeps/ 
-    ${seed || session?.user?.name || 'placeholder'}.svg`}
+        src={`https://api.dicebear.com/7.x/micah/svg?${
+          seed || session?.user?.name || 'seed=Felix'
+        }`}
       />
     </div>
   );

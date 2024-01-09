@@ -6,6 +6,11 @@ module.exports = {
     defaultLocale: 'en',
   },
   images: {
-    domains: ['links.papareact.com', 'logos-world.net', 'avatars.dicebear.com'],
+    domains: [
+      'links.papareact.com',
+      'logos-world.net',
+      'avatars.dicebear.com',
+      'api.dicebear.com',
+    ],
   },
 };

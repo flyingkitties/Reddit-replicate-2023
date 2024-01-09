@@ -111,10 +111,7 @@ function PostPage() {
           >
             <hr className="absolute top-10 h-16 border left-7 z-0 text-slate-200" />
             <div className="z-5">
-              <Avatar
-                large
-                seed={comment?.username}
-              />
+              <Avatar seed={comment?.username} />
             </div>
             <div className="flex flex-col">
               <p className="py-2 text-xs text-gray-400">
