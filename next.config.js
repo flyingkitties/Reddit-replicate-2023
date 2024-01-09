@@ -6,11 +6,23 @@ module.exports = {
     defaultLocale: 'en',
   },
   images: {
-    domains: [
-      'links.papareact.com',
-      'logos-world.net',
-      'avatars.dicebear.com',
-      'api.dicebear.com',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'links.papareact.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'logos-world.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'avatars.dicebear.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.dicebear.com',
+      },
     ],
   },
 };

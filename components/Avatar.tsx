@@ -19,7 +19,7 @@ function Avatar({ seed, large }: Props) {
         height="50"
         alt="Avatar"
         src={`https://api.dicebear.com/7.x/micah/svg?${
-          seed || session?.user?.name || 'seed=Felix'
+          seed || session?.user?.name
         }`}
       />
     </div>
