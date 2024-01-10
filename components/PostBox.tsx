@@ -122,7 +122,7 @@ function PostBox({ subreddit }: Props) {
     >
       <div className="flex items-center space-x-3">
         {/* Avatar */}
-        <Avatar />
+        <Avatar small />
 
         <input
           {...register('postTitle', { required: true })}

@@ -136,7 +136,10 @@ function Post({ post }: Props) {
         <div className="py-3 pr-12 pb-1 w-full">
           {/* header */}
           <div className="flex items-center space-x-2 pr-10 ">
-            <Avatar seed={post?.subreddit[0]?.topic} />
+            <Avatar
+              seed={post?.subreddit[0]?.topic}
+              small
+            />
             <div className="flex text-xs text-gray-500 ">
               <Link href={`/subreddit/${post?.subreddit[0]?.topic}`}>
                 <span

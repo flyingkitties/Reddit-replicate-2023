@@ -1,8 +1,8 @@
-import { useRouter } from "next/router";
-import React from "react";
-import Avatar from "../../components/Avatar";
-import Feed from "../../components/Feed";
-import PostBox from "../../components/PostBox";
+import { useRouter } from 'next/router';
+import React from 'react';
+import Avatar from '../../components/Avatar';
+import Feed from '../../components/Feed';
+import PostBox from '../../components/PostBox';
 
 function SubredditTopic() {
   const {
