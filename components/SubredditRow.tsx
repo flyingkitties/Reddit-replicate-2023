@@ -18,7 +18,7 @@ function SubredditRow({ index, topic }: Props) {
       <ChevronDoubleRightIcon className="h-4 w-4 flex-shrink-0 text-blue-400 " />
       <Avatar
         seed={`/subreddit/${topic}`}
-        large
+        small
       />
       <p className="flex-1 truncate">r/{topic}</p>
       <Link href={`/subreddit/${topic}`}>

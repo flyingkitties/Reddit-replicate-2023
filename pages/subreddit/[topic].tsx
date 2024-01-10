@@ -17,7 +17,10 @@ function SubredditTopic() {
         space-x-4 pb-3 px-3"
         >
           <div className="-mt-5  ">
-            <Avatar seed={topic as string} />
+            <Avatar
+              seed={topic as string}
+              large
+            />
           </div>
 
           <div className="py-2 ">
