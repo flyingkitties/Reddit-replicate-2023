@@ -1,4 +1,4 @@
 configurationset:
   - configuration:
       name: postgresql_config
-      uri: postgresql://db.sehtdbfjhnhdjoenlaaw.supabase.co/postgres?user=postgres&password=Ronnysaidthepasswordwasntstrongenough99
+      uri: postgres://postgres.sehtdbfjhnhdjoenlaaw:Ronnysaidthepasswordwasntstrongenough99@aws-0-eu-west-2.pooler.supabase.com:5432/postgres
